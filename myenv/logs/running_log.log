@@ -1,0 +1,1572 @@
+[2024-12-28 14:47:27,044: INFO: main: this is the first logger]
+[2024-12-28 14:50:05,398: INFO: main: this is the first logger]
+[2024-12-28 15:23:14,427: INFO: main: this is the first logger]
+[2024-12-28 15:23:14,428: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-28 15:23:14,430: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-28 15:23:14,439: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-28 15:23:14,440: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-28 15:23:14,441: INFO: common: created directory at: artifacts]
+[2024-12-28 15:23:14,441: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-28 15:23:16,446: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 13755
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "6d9d2fd6812ee81c04e35354b5d0ee6811972624c78b23d1af891d096d235363"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5F2B:28A105:4D0DBF:6388E3:676FCA71
+Accept-Ranges: bytes
+Date: Sat, 28 Dec 2024 09:53:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4744-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1735379597.779516,VS0,VE374
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d4269b91fe13674e0f9e66259c8f063fadeac862
+Expires: Sat, 28 Dec 2024 09:58:17 GMT
+Source-Age: 0
+
+]
+[2024-12-28 15:23:16,462: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-28 17:03:02,043: INFO: main: this is the first logger]
+[2024-12-28 17:03:02,043: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-28 17:03:02,066: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-28 17:03:02,069: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-28 17:03:02,072: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-28 17:03:02,074: INFO: common: created directory at: artifacts]
+[2024-12-28 17:03:02,074: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-28 17:03:02,075: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-28 17:03:02,080: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-28 17:03:02,080: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-28 17:03:02,087: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-28 17:03:02,089: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-28 17:03:02,090: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-28 17:03:02,092: INFO: common: created directory at: artifacts]
+[2024-12-28 17:03:02,092: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-28 17:03:02,148: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:48:21,990: INFO: main: this is the first logger]
+[2024-12-29 02:48:21,990: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 02:48:21,994: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:48:22,008: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:48:22,015: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:48:22,016: INFO: common: created directory at: artifacts]
+[2024-12-29 02:48:22,016: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 02:48:22,016: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 02:48:22,027: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:48:22,027: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 02:48:22,030: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:48:22,030: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:48:22,030: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:48:22,030: INFO: common: created directory at: artifacts]
+[2024-12-29 02:48:22,030: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 02:48:22,052: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:48:22,054: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 02:48:22,057: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:48:22,058: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:48:22,059: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:48:22,059: INFO: common: created directory at: artifacts]
+[2024-12-29 02:48:22,059: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 02:48:22,063: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 02:48:22,065: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 02:48:22,772: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:51:58,160: INFO: main: this is the first logger]
+[2024-12-29 02:51:58,160: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 02:51:58,162: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:51:58,162: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:51:58,162: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:51:58,166: INFO: common: created directory at: artifacts]
+[2024-12-29 02:51:58,166: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 02:51:58,166: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 02:51:58,167: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:51:58,167: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 02:51:58,172: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:51:58,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:51:58,174: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:51:58,174: INFO: common: created directory at: artifacts]
+[2024-12-29 02:51:58,174: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 02:51:58,179: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:51:58,179: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 02:51:58,192: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:51:58,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:51:58,195: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:51:58,195: INFO: common: created directory at: artifacts]
+[2024-12-29 02:51:58,197: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 02:51:58,200: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 02:51:58,201: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 02:51:58,352: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:53:15,146: INFO: main: this is the first logger]
+[2024-12-29 02:53:15,146: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 02:53:15,147: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:53:15,162: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:53:15,169: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:53:15,169: INFO: common: created directory at: artifacts]
+[2024-12-29 02:53:15,169: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 02:53:15,169: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 02:53:15,182: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:53:15,183: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 02:53:15,186: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:53:15,187: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:53:15,188: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:53:15,189: INFO: common: created directory at: artifacts]
+[2024-12-29 02:53:15,189: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 02:53:15,205: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 02:53:15,205: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 02:53:15,214: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 02:53:15,214: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 02:53:15,215: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 02:53:15,216: INFO: common: created directory at: artifacts]
+[2024-12-29 02:53:15,217: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 02:53:15,219: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 02:53:15,221: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 02:53:15,698: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:09:28,204: INFO: main: this is the first logger]
+[2024-12-29 04:09:28,205: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:09:28,206: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:09:28,209: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:09:28,209: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:09:28,209: INFO: common: created directory at: artifacts]
+[2024-12-29 04:09:28,209: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:09:28,209: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:09:28,213: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:09:28,213: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:09:28,215: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:09:28,215: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:09:28,215: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:09:28,219: INFO: common: created directory at: artifacts]
+[2024-12-29 04:09:28,219: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:09:28,237: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:09:28,237: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:09:28,241: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:09:28,242: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:09:28,243: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:09:28,244: INFO: common: created directory at: artifacts]
+[2024-12-29 04:09:28,244: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:09:28,248: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:09:28,248: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:09:28,434: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:11:31,114: INFO: main: this is the first logger]
+[2024-12-29 04:11:31,114: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:11:31,114: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:11:31,114: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:11:31,114: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:11:31,119: INFO: common: created directory at: artifacts]
+[2024-12-29 04:11:31,119: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:11:31,119: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:11:31,121: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:11:31,121: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:11:31,125: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:11:31,125: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:11:31,127: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:11:31,127: INFO: common: created directory at: artifacts]
+[2024-12-29 04:11:31,127: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:11:31,143: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:11:31,143: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:11:31,144: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:11:31,144: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:11:31,144: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:11:31,150: INFO: common: created directory at: artifacts]
+[2024-12-29 04:11:31,150: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:11:31,153: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:11:31,154: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:11:31,299: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:16:38,578: INFO: main: this is the first logger]
+[2024-12-29 04:16:38,578: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:16:38,581: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:16:38,581: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:16:38,584: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:16:38,584: INFO: common: created directory at: artifacts]
+[2024-12-29 04:16:38,584: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:16:38,585: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:16:38,594: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:16:38,594: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:16:38,596: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:16:38,597: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:16:38,598: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:16:38,599: INFO: common: created directory at: artifacts]
+[2024-12-29 04:16:38,599: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:16:38,614: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:16:38,614: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:16:38,619: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:16:38,620: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:16:38,621: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:16:38,622: INFO: common: created directory at: artifacts]
+[2024-12-29 04:16:38,622: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:16:38,625: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:16:38,626: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:16:38,761: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:18:00,295: INFO: main: this is the first logger]
+[2024-12-29 04:18:00,295: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:18:00,295: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:18:00,295: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:18:00,302: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:18:00,302: INFO: common: created directory at: artifacts]
+[2024-12-29 04:18:00,302: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:18:00,302: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:18:00,305: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:18:00,305: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:18:00,306: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:18:00,306: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:18:00,309: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:18:00,310: INFO: common: created directory at: artifacts]
+[2024-12-29 04:18:00,310: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:18:00,322: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:18:00,322: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:18:00,329: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:18:00,330: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:18:00,332: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:18:00,332: INFO: common: created directory at: artifacts]
+[2024-12-29 04:18:00,333: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:18:00,335: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:18:00,337: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:18:00,477: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:19:45,759: INFO: main: this is the first logger]
+[2024-12-29 04:19:45,759: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:19:45,766: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:19:45,768: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:19:45,769: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:19:45,769: INFO: common: created directory at: artifacts]
+[2024-12-29 04:19:45,769: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:19:45,769: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:19:45,772: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:19:45,773: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:19:45,775: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:19:45,776: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:19:45,777: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:19:45,778: INFO: common: created directory at: artifacts]
+[2024-12-29 04:19:45,778: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:19:45,793: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:19:45,793: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:19:45,797: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:19:45,799: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:19:45,799: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:19:45,800: INFO: common: created directory at: artifacts]
+[2024-12-29 04:19:45,800: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:19:45,803: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:19:45,804: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:19:45,936: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:20:17,829: INFO: main: this is the first logger]
+[2024-12-29 04:20:17,830: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:20:17,832: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:20:17,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:20:17,834: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:20:17,835: INFO: common: created directory at: artifacts]
+[2024-12-29 04:20:17,835: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:20:17,836: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:20:17,837: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:20:17,838: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:20:17,840: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:20:17,841: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:20:17,842: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:20:17,843: INFO: common: created directory at: artifacts]
+[2024-12-29 04:20:17,844: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:20:17,859: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:20:17,860: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:20:17,864: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:20:17,864: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:20:17,866: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:20:17,866: INFO: common: created directory at: artifacts]
+[2024-12-29 04:20:17,866: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:20:17,869: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:20:17,870: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:20:18,006: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:23:10,267: INFO: main: this is the first logger]
+[2024-12-29 04:23:10,267: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:23:10,267: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:23:10,267: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:23:10,271: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:23:10,271: INFO: common: created directory at: artifacts]
+[2024-12-29 04:23:10,271: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:23:10,273: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:23:10,275: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:23:10,275: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:23:10,278: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:23:10,278: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:23:10,280: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:23:10,281: INFO: common: created directory at: artifacts]
+[2024-12-29 04:23:10,281: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:23:10,296: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:23:10,296: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:23:10,300: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:23:10,302: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:23:10,302: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:23:10,304: INFO: common: created directory at: artifacts]
+[2024-12-29 04:23:10,304: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:23:10,306: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:23:10,307: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:23:10,324: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:23:10,325: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:23:10,464: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:25:30,023: INFO: main: this is the first logger]
+[2024-12-29 04:25:30,024: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:25:30,027: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:25:30,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:25:30,030: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:25:30,030: INFO: common: created directory at: artifacts]
+[2024-12-29 04:25:30,031: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:25:30,032: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:25:30,033: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:25:30,035: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:25:30,038: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:25:30,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:25:30,038: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:25:30,038: INFO: common: created directory at: artifacts]
+[2024-12-29 04:25:30,038: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:25:30,058: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:25:30,059: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:25:30,062: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:25:30,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:25:30,065: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:25:30,065: INFO: common: created directory at: artifacts]
+[2024-12-29 04:25:30,065: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:25:30,070: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:25:30,071: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:25:30,084: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:25:30,086: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:25:30,373: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:25:30,738: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:25:30,738: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:25:30,741: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:25:30,742: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:25:30,743: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:25:30,748: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:25:30,749: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:25:30,758: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:25:30,758: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:25:30,760: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:25:30,760: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:25:30,760: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:36:49,561: INFO: main: this is the first logger]
+[2024-12-29 04:36:49,562: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:36:49,563: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:36:49,563: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:36:49,566: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:36:49,566: INFO: common: created directory at: artifacts]
+[2024-12-29 04:36:49,566: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:36:49,566: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:36:49,566: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:36:49,566: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:36:49,566: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:36:49,566: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:36:49,566: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:36:49,566: INFO: common: created directory at: artifacts]
+[2024-12-29 04:36:49,566: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:36:49,590: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:36:49,591: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:36:49,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:36:49,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:36:49,602: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:36:49,603: INFO: common: created directory at: artifacts]
+[2024-12-29 04:36:49,603: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:36:49,607: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:36:49,607: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:36:49,618: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:36:49,619: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:36:49,882: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:36:50,241: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:36:50,241: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:36:50,241: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:36:50,241: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:36:50,241: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:36:50,241: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:36:50,247: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:36:50,253: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:36:50,254: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:36:50,254: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:36:50,254: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:36:50,255: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:36:50,255: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:36:50,257: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:36:50,258: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:36:50,260: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:36:50,260: INFO: common: created directory at: artifacts]
+[2024-12-29 04:36:50,261: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:36:50,497: INFO: model_trainer: Trained Random Forest model with 100 estimators and max depth of 10]
+[2024-12-29 04:36:50,524: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:36:50,527: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:39:17,138: INFO: main: this is the first logger]
+[2024-12-29 04:39:17,138: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:39:17,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:39:17,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:39:17,143: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:39:17,143: INFO: common: created directory at: artifacts]
+[2024-12-29 04:39:17,143: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:39:17,143: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:39:17,146: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:39:17,146: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:39:17,147: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:39:17,147: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:39:17,151: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:39:17,151: INFO: common: created directory at: artifacts]
+[2024-12-29 04:39:17,151: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:39:17,170: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:39:17,170: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:39:17,173: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:39:17,174: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:39:17,176: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:39:17,177: INFO: common: created directory at: artifacts]
+[2024-12-29 04:39:17,177: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:39:17,181: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:39:17,181: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:39:17,192: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:39:17,194: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:39:17,462: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:39:17,817: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:39:17,817: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:39:17,821: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:39:17,821: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:39:17,824: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:39:17,824: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:39:17,826: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:39:17,833: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:39:17,833: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:39:17,834: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:39:17,834: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:39:17,834: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:39:17,835: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:39:17,837: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:39:17,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:39:17,840: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:39:17,840: INFO: common: created directory at: artifacts]
+[2024-12-29 04:39:17,840: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:39:18,050: INFO: model_trainer: Trained Random Forest model with 100 estimators and max depth of 10]
+[2024-12-29 04:39:18,073: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:39:18,073: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:45:12,017: INFO: main: this is the first logger]
+[2024-12-29 04:45:12,017: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:45:12,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:45:12,020: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:45:12,021: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:45:12,022: INFO: common: created directory at: artifacts]
+[2024-12-29 04:45:12,022: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:45:12,023: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:45:12,025: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:45:12,025: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:45:12,028: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:45:12,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:45:12,030: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:45:12,030: INFO: common: created directory at: artifacts]
+[2024-12-29 04:45:12,031: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:45:12,046: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:45:12,047: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:45:12,048: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:45:12,048: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:45:12,052: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:45:12,052: INFO: common: created directory at: artifacts]
+[2024-12-29 04:45:12,054: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:45:12,057: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:45:12,057: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:45:12,068: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:45:12,068: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:45:12,335: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:45:12,682: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:45:12,682: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:45:12,682: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:45:12,689: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:45:12,690: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:45:12,690: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:45:12,693: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:45:12,700: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:45:12,700: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:45:12,700: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:45:12,700: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:45:12,700: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:45:12,701: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:45:12,704: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:45:12,705: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:45:12,706: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:45:12,706: INFO: common: created directory at: artifacts]
+[2024-12-29 04:45:12,707: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:45:12,910: INFO: model_trainer: Trained Random Forest model with 100 estimators and max depth of 10]
+[2024-12-29 04:45:12,938: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:45:12,938: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:45:12,938: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 04:45:12,940: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:45:12,940: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:45:12,943: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:45:12,943: INFO: common: created directory at: artifacts]
+[2024-12-29 04:45:12,944: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 04:45:12,987: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 04:45:12,987: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:46:36,584: INFO: main: this is the first logger]
+[2024-12-29 04:46:36,599: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:46:36,601: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:46:36,601: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:46:36,610: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:46:36,610: INFO: common: created directory at: artifacts]
+[2024-12-29 04:46:36,611: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:46:36,611: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:46:36,613: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:46:36,613: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:46:36,617: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:46:36,618: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:46:36,618: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:46:36,619: INFO: common: created directory at: artifacts]
+[2024-12-29 04:46:36,620: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:46:36,634: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:46:36,634: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:46:36,638: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:46:36,639: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:46:36,640: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:46:36,641: INFO: common: created directory at: artifacts]
+[2024-12-29 04:46:36,641: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:46:36,644: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:46:36,644: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:46:36,655: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:46:36,656: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:46:36,891: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:46:37,260: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:46:37,260: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:46:37,262: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:46:37,263: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:46:37,263: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:46:37,263: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:46:37,263: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:46:37,273: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:46:37,273: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:46:37,273: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:46:37,273: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:46:37,273: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:46:37,275: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:46:37,277: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:46:37,278: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:46:37,279: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:46:37,279: INFO: common: created directory at: artifacts]
+[2024-12-29 04:46:37,279: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:46:39,530: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 04:46:39,924: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:46:39,945: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:46:39,945: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 04:46:39,948: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:46:39,948: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:46:39,949: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:46:39,949: INFO: common: created directory at: artifacts]
+[2024-12-29 04:46:39,951: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 04:46:40,473: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 04:46:40,488: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:52:27,261: INFO: main: this is the first logger]
+[2024-12-29 04:52:27,262: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:52:27,264: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:52:27,265: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:52:27,266: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:52:27,267: INFO: common: created directory at: artifacts]
+[2024-12-29 04:52:27,267: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:52:27,268: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:52:27,270: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:52:27,271: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:52:27,273: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:52:27,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:52:27,274: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:52:27,276: INFO: common: created directory at: artifacts]
+[2024-12-29 04:52:27,277: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:52:27,294: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:52:27,295: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:52:27,297: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:52:27,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:52:27,297: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:52:27,297: INFO: common: created directory at: artifacts]
+[2024-12-29 04:52:27,297: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:52:27,305: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:52:27,305: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:52:27,314: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:52:27,319: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:52:27,467: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:52:27,819: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:52:27,819: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:52:27,819: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:52:27,822: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:52:27,823: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:52:27,823: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:52:27,826: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:52:27,830: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:52:27,830: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:52:27,830: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:52:27,830: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:52:27,834: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:52:27,834: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:52:27,837: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:52:27,837: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:52:27,837: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:52:27,837: INFO: common: created directory at: artifacts]
+[2024-12-29 04:52:27,837: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:52:29,978: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 04:52:30,376: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:52:30,383: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:52:30,383: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 04:52:30,388: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:52:30,388: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:52:30,391: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:52:30,391: INFO: common: created directory at: artifacts]
+[2024-12-29 04:52:30,391: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 04:52:30,851: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 04:52:30,869: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:53:27,625: INFO: main: this is the first logger]
+[2024-12-29 04:53:27,625: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:53:27,627: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:53:27,627: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:53:27,627: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:53:27,631: INFO: common: created directory at: artifacts]
+[2024-12-29 04:53:27,631: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:53:27,632: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:53:27,635: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:53:27,635: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:53:27,637: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:53:27,638: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:53:27,639: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:53:27,640: INFO: common: created directory at: artifacts]
+[2024-12-29 04:53:27,640: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:53:27,664: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:53:27,664: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:53:27,668: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:53:27,668: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:53:27,670: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:53:27,670: INFO: common: created directory at: artifacts]
+[2024-12-29 04:53:27,671: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:53:27,674: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:53:27,674: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:53:27,686: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:53:27,687: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:53:27,833: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:53:28,178: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:53:28,178: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:53:28,189: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:53:28,189: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:53:28,190: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:53:28,190: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:53:28,194: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:53:28,199: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:53:28,199: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:53:28,199: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:53:28,199: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:53:28,201: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:53:28,201: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:53:28,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:53:28,204: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:53:28,205: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:53:28,206: INFO: common: created directory at: artifacts]
+[2024-12-29 04:53:28,206: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:53:30,337: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 04:53:30,701: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:53:30,708: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:53:30,708: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 04:53:30,713: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:53:30,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:53:30,713: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:53:30,713: INFO: common: created directory at: artifacts]
+[2024-12-29 04:53:30,713: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 04:53:31,125: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 04:53:31,142: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:55:41,636: INFO: main: this is the first logger]
+[2024-12-29 04:55:41,638: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:55:41,639: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:55:41,641: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:55:41,641: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:55:41,641: INFO: common: created directory at: artifacts]
+[2024-12-29 04:55:41,641: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:55:41,644: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:55:41,646: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:55:41,646: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:55:41,649: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:55:41,651: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:55:41,653: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:55:41,653: INFO: common: created directory at: artifacts]
+[2024-12-29 04:55:41,654: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:55:41,668: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:55:41,672: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:55:41,676: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:55:41,676: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:55:41,676: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:55:41,678: INFO: common: created directory at: artifacts]
+[2024-12-29 04:55:41,678: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:55:41,682: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:55:41,683: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:55:41,694: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:55:41,694: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:55:41,844: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:55:42,205: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:55:42,205: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:55:42,205: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:55:42,205: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:55:42,205: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:55:42,205: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:55:42,205: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:55:42,216: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:55:42,216: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:55:42,216: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:55:42,218: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:55:42,218: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:55:42,218: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:55:42,221: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:55:42,222: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:55:42,223: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:55:42,223: INFO: common: created directory at: artifacts]
+[2024-12-29 04:55:42,223: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:55:44,362: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 04:55:44,725: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:55:44,727: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:55:44,727: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 04:55:44,727: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:55:44,727: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:55:44,736: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:55:44,736: INFO: common: created directory at: artifacts]
+[2024-12-29 04:55:44,737: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 04:55:45,153: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 04:55:45,172: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:56:54,389: INFO: main: this is the first logger]
+[2024-12-29 04:56:54,389: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:56:54,392: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:56:54,392: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:56:54,392: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:56:54,396: INFO: common: created directory at: artifacts]
+[2024-12-29 04:56:54,396: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:56:54,397: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:56:54,399: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:56:54,400: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:56:54,400: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:56:54,400: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:56:54,405: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:56:54,406: INFO: common: created directory at: artifacts]
+[2024-12-29 04:56:54,408: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:56:54,431: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:56:54,432: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:56:54,435: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:56:54,436: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:56:54,439: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:56:54,439: INFO: common: created directory at: artifacts]
+[2024-12-29 04:56:54,439: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:56:54,443: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:56:54,443: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:56:54,457: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:56:54,458: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:56:54,611: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:56:54,982: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:56:54,982: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:56:54,983: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:56:54,984: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:56:54,986: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:56:54,986: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:56:54,987: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:56:54,996: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:56:54,996: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:56:54,996: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:56:54,996: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:56:54,997: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:56:54,997: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:56:55,000: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:56:55,001: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:56:55,002: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:56:55,003: INFO: common: created directory at: artifacts]
+[2024-12-29 04:56:55,003: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:56:57,194: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 04:56:57,550: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:56:57,559: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:56:57,559: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 04:56:57,559: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:56:57,559: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:56:57,559: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:56:57,559: INFO: common: created directory at: artifacts]
+[2024-12-29 04:56:57,559: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 04:56:57,992: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 04:56:57,994: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:58:06,670: INFO: main: this is the first logger]
+[2024-12-29 04:58:06,670: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 04:58:06,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:58:06,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:58:06,670: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:58:06,670: INFO: common: created directory at: artifacts]
+[2024-12-29 04:58:06,682: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 04:58:06,682: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 04:58:06,685: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:58:06,685: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 04:58:06,688: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:58:06,690: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:58:06,691: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:58:06,692: INFO: common: created directory at: artifacts]
+[2024-12-29 04:58:06,692: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 04:58:06,710: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:58:06,710: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 04:58:06,712: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:58:06,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:58:06,712: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:58:06,716: INFO: common: created directory at: artifacts]
+[2024-12-29 04:58:06,717: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 04:58:06,718: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 04:58:06,718: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 04:58:06,733: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 04:58:06,734: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 04:58:06,871: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 04:58:07,223: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 04:58:07,223: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 04:58:07,223: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 04:58:07,223: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 04:58:07,223: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 04:58:07,223: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 04:58:07,223: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 04:58:07,240: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 04:58:07,240: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 04:58:07,240: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 04:58:07,241: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 04:58:07,241: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:58:07,241: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 04:58:07,244: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:58:07,245: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:58:07,246: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:58:07,246: INFO: common: created directory at: artifacts]
+[2024-12-29 04:58:07,246: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 04:58:09,419: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 04:58:09,777: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 04:58:09,777: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 04:58:09,777: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 04:58:09,786: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 04:58:09,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 04:58:09,786: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 04:58:09,786: INFO: common: created directory at: artifacts]
+[2024-12-29 04:58:09,786: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 04:58:10,218: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 04:58:10,244: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:00:39,663: INFO: main: this is the first logger]
+[2024-12-29 05:00:39,663: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 05:00:39,664: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:00:39,664: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:00:39,664: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:00:39,664: INFO: common: created directory at: artifacts]
+[2024-12-29 05:00:39,664: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 05:00:39,664: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 05:00:39,671: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:00:39,672: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 05:00:39,672: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:00:39,675: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:00:39,676: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:00:39,676: INFO: common: created directory at: artifacts]
+[2024-12-29 05:00:39,677: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 05:00:39,691: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:00:39,691: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 05:00:39,700: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:00:39,702: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:00:39,703: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:00:39,704: INFO: common: created directory at: artifacts]
+[2024-12-29 05:00:39,704: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 05:00:39,708: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 05:00:39,709: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 05:00:39,723: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 05:00:39,724: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 05:00:39,874: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 05:00:40,212: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 05:00:40,212: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 05:00:40,226: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 05:00:40,227: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 05:00:40,227: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 05:00:40,227: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 05:00:40,227: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 05:00:40,236: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 05:00:40,237: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 05:00:40,237: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 05:00:40,238: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 05:00:40,238: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:00:40,238: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 05:00:40,241: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:00:40,241: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:00:40,241: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:00:40,241: INFO: common: created directory at: artifacts]
+[2024-12-29 05:00:40,241: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 05:00:42,380: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 05:00:42,744: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 05:00:42,746: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:00:42,746: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 05:00:42,754: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:00:42,755: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:00:42,755: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:00:42,755: INFO: common: created directory at: artifacts]
+[2024-12-29 05:00:42,755: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 05:00:43,146: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 05:00:43,166: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:01:43,886: INFO: main: this is the first logger]
+[2024-12-29 05:01:43,886: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 05:01:43,887: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:01:43,887: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:01:43,887: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:01:43,887: INFO: common: created directory at: artifacts]
+[2024-12-29 05:01:43,887: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 05:01:43,887: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 05:01:43,894: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:01:43,895: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 05:01:43,897: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:01:43,898: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:01:43,898: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:01:43,898: INFO: common: created directory at: artifacts]
+[2024-12-29 05:01:43,898: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 05:01:43,913: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:01:43,915: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 05:01:43,922: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:01:43,924: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:01:43,926: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:01:43,926: INFO: common: created directory at: artifacts]
+[2024-12-29 05:01:43,926: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 05:01:43,931: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 05:01:43,931: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 05:01:43,937: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 05:01:43,944: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 05:01:44,096: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 05:01:44,448: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 05:01:44,448: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 05:01:44,448: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 05:01:44,459: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 05:01:44,462: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 05:01:44,462: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 05:01:44,462: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 05:01:44,470: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 05:01:44,471: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 05:01:44,471: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 05:01:44,471: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 05:01:44,471: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:01:44,471: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 05:01:44,474: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:01:44,475: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:01:44,476: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:01:44,477: INFO: common: created directory at: artifacts]
+[2024-12-29 05:01:44,477: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 05:01:46,643: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 05:01:47,050: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 05:01:47,064: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:01:47,064: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 05:01:47,071: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:01:47,072: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:01:47,072: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:01:47,076: INFO: common: created directory at: artifacts]
+[2024-12-29 05:01:47,077: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 05:01:47,500: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 05:01:47,518: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:02:27,681: INFO: main: this is the first logger]
+[2024-12-29 05:02:27,681: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-29 05:02:27,684: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:02:27,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:02:27,687: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:02:27,687: INFO: common: created directory at: artifacts]
+[2024-12-29 05:02:27,687: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-29 05:02:27,688: INFO: data_ingestion: File already exists of size: ~ 13 KB]
+[2024-12-29 05:02:27,690: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:02:27,690: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-12-29 05:02:27,693: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:02:27,694: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:02:27,696: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:02:27,697: INFO: common: created directory at: artifacts]
+[2024-12-29 05:02:27,697: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-29 05:02:27,714: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:02:27,715: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-12-29 05:02:27,718: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:02:27,718: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:02:27,718: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:02:27,718: INFO: common: created directory at: artifacts]
+[2024-12-29 05:02:27,721: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-29 05:02:27,724: INFO: data_transformation: Loaded data. First few rows:]
+[2024-12-29 05:02:27,724: INFO: data_transformation:    age     sex   bmi  children smoker     region  expenses
+0   19  female  27.9         0    yes  southwest  16884.92
+1   18    male  33.8         1     no  southeast   1725.55
+2   28    male  33.0         3     no  southeast   4449.46
+3   33    male  22.7         0     no  northwest  21984.47
+4   32    male  28.9         0     no  northwest   3866.86]
+[2024-12-29 05:02:27,735: INFO: data_transformation: Starting EDA process...]
+[2024-12-29 05:02:27,736: INFO: data_transformation: Null value count:
+age         0
+sex         0
+bmi         0
+children    0
+smoker      0
+region      0
+expenses    0
+dtype: int64]
+[2024-12-29 05:02:27,863: INFO: data_transformation: Saved correlation heatmap.]
+[2024-12-29 05:02:28,222: INFO: data_transformation: Saved feature distribution plots.]
+[2024-12-29 05:02:28,222: INFO: data_transformation: Starting preprocessing...]
+[2024-12-29 05:02:28,224: INFO: data_transformation: Encoded 'sex' with mapping: {'female': np.int64(0), 'male': np.int64(1)}]
+[2024-12-29 05:02:28,225: INFO: data_transformation: Encoded 'smoker' with mapping: {'no': np.int64(0), 'yes': np.int64(1)}]
+[2024-12-29 05:02:28,227: INFO: data_transformation: One-hot encoded 'region' column.]
+[2024-12-29 05:02:28,231: INFO: data_transformation: Data types after encoding:
+age                   int64
+sex                   int64
+bmi                 float64
+children              int64
+smoker                int64
+expenses            float64
+region_northwest       bool
+region_southeast       bool
+region_southwest       bool
+dtype: object]
+[2024-12-29 05:02:28,231: INFO: data_transformation: Completed preprocessing.]
+[2024-12-29 05:02:28,252: INFO: data_transformation: Saved train and test datasets.]
+[2024-12-29 05:02:28,254: INFO: data_transformation: Split data into training and test sets]
+[2024-12-29 05:02:28,254: INFO: data_transformation: Training set shape: (1003, 9)]
+[2024-12-29 05:02:28,254: INFO: data_transformation: Testing set shape: (335, 9)]
+[2024-12-29 05:02:28,255: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:02:28,255: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-29 05:02:28,258: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:02:28,259: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:02:28,261: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:02:28,261: INFO: common: created directory at: artifacts]
+[2024-12-29 05:02:28,261: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-29 05:02:30,693: INFO: model_trainer: Trained Random Forest model with 1000 estimators and max depth of 15]
+[2024-12-29 05:02:31,096: INFO: model_trainer: Model saved at artifacts/model_trainer\model.joblib]
+[2024-12-29 05:02:31,106: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-29 05:02:31,107: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-29 05:02:31,111: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-29 05:02:31,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-29 05:02:31,114: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-29 05:02:31,115: INFO: common: created directory at: artifacts]
+[2024-12-29 05:02:31,115: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-12-29 05:02:31,627: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-29 05:02:31,633: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
