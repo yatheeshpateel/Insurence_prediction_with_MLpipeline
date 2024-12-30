@@ -77,3 +77,20 @@ This project aims to predict insurance costs using a machine learning pipeline. 
     ```
 5. Open a pull request.
 
+## output
+
+# Home Page
+![Home Page](project output images/home.jpg)
+
+# Model Train page
+![Train page](project output image/train page.jpg)
+
+# Prediction Page
+![Prediction Page](project output images/predict page.jpg)
+
+# BMI Calculator Page
+![BMI Calculator Page](project output images/bmi calculation page.jpg)
+
+# Recomendation Page
+![recommandation Page](project output images/recommendation page.jpg)
+
