@@ -1,7 +1,5 @@
 # Insurence_prediction_with_MLpipeline
 
-# Insurence_prediction_with_MLpipeline
-
 ## Project Description
 This project aims to predict insurance costs using a machine learning pipeline. The goal is to build a model that can accurately estimate the insurance charges based on various features such as age, sex, BMI, children, smoker status, and region.
 
