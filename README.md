@@ -80,7 +80,7 @@ This project aims to predict insurance costs using a machine learning pipeline. 
 ## output
 
 # Home Page
-![Home Page](project output images/home.jpg)
+![Home Page](project output images/home.jpg)project output images/recommendation page.jpg
 
 # Model Train page
 ![Train page](project output image/train page.jpg)
