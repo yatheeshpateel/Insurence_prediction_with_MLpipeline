@@ -89,7 +89,7 @@ This project aims to predict insurance costs using a machine learning pipeline. 
 ![Prediction Page](project output images/predict page.jpg)
 
 # BMI Calculator Page
-![BMI Calculator Page](project output images/bmi calculation page.jpg)
+![BMI Calculator Page](C:\Capstone\Insurence_prediction_with_MLpipeline\project output images\bmi calculation page.jpg)
 
 # Recomendation Page
 ![recommandation Page](project output images/recommendation page.jpg)
