@@ -3,6 +3,7 @@ import pandas as pd
 import os
 from src.insurance.pipeline.prediction import PredictionPipeline
 
+# Function to calculate BMI
 def calculate_bmi(weight, height):
     return weight / ((height / 100) ** 2)  # Convert height to meters
 
@@ -58,16 +59,19 @@ elif page == 'Predict':
     with st.form("prediction_form"):
         age = st.number_input("Age", min_value=18, max_value=100, value=25)
         sex = st.selectbox("Sex", ["male", "female"])
-        weight = st.number_input("Weight (kg)", min_value=30.0, max_value=200.0, value=70.0)
-        height = st.number_input("Height (cm)", min_value=100.0, max_value=250.0, value=170.0)
-        bmi = calculate_bmi(weight, height)
-        st.write(f"Calculated BMI: {bmi:.2f}")
+        bmi_option = st.radio("Do you know your BMI?", ["Yes", "No"])
+
+        if bmi_option == "Yes":
+            bmi = st.number_input("Enter your BMI", min_value=10.0, max_value=50.0, value=25.0, step=0.1)
+        else:
+            st.write("Use the BMI Calculator page to calculate your BMI, then return here to enter it.")
+
         children = st.number_input("Number of Children", min_value=0, max_value=10, value=0)
         smoker = st.selectbox("Smoker", ["no", "yes"])
         region = st.selectbox("Region", ["southeast", "southwest", "northwest", "northeast"])
         submitted = st.form_submit_button("Predict")
 
-    if submitted:
+    if submitted and bmi_option == "Yes":
         try:
             sex = 1 if sex == "female" else 0
             smoker = 1 if smoker == "yes" else 0
@@ -79,7 +83,7 @@ elif page == 'Predict':
             input_data = {
                 'age': [age],
                 'sex': [sex],
-                'bmi': [bmi],
+                'bmi': [bmi],  # Using directly input BMI
                 'children': [children],
                 'smoker': [smoker],
                 'region_northwest': [region_northwest],
@@ -99,16 +103,21 @@ elif page == 'Predict':
 
         except Exception as e:
             st.error(f"An error occurred: {e}")
+    elif submitted:
+        st.error("Please calculate your BMI using the BMI Calculator page and then enter it here.")
 
-# BMI Calculation Page
+# BMI Calculator Page
 elif page == 'BMI Calculator':
     st.title("BMI Calculation")
+    st.write("Calculate your BMI using your weight and height.")
+
     weight = st.number_input("Enter weight (kg)", min_value=30.0, max_value=200.0, value=70.0)
     height = st.number_input("Enter height (cm)", min_value=100.0, max_value=250.0, value=170.0)
 
     if st.button("Calculate BMI"):
         bmi = calculate_bmi(weight, height)
-        st.write(f"Your BMI is: {bmi:.2f}")
+        st.success(f"Your BMI is: {bmi:.2f}")
+        st.write("Now you can return to the Predict page and enter this value.")
 
 # Recommendation Page
 elif page == 'Recommendation':
@@ -130,7 +139,6 @@ elif page == 'Recommendation':
                 st.write(f"{provider}: ₹{cost_range[0]} to ₹{cost_range[1]}")
     else:
         st.write("Please make a prediction first on the 'Predict' page.")
-
 
 # About Page
 elif page == 'About':
